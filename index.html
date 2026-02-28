@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yamaha Showroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Yamaha Showroom</h1>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#bikes">Bikes</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HOME SECTION -->
+<section id="home" class="hero">
+    <h2>Experience the Power of Yamaha</h2>
+    <p>Premium Bikes & Scooters Available</p>
+    <button onclick="scrollToBikes()">Explore Bikes</button>
+</section>
+
+<!-- BIKES SECTION -->
+<section id="bikes" class="bikes">
+    <h2>Our Bikes & Scooters</h2>
+
+    <div class="bike-container">
+
+        <div class="card">
+            <img src="images/r15.jpg" alt="Yamaha R15 V4">
+            <h3>Yamaha R15 V4</h3>
+            <p>155cc | Sports Bike</p>
+            <p class="price">₹1,82,000</p>
+            <button onclick="showAlert()">Book Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/mt-15.jpg" alt="Yamaha MT-15">
+            <h3>Yamaha MT-15</h3>
+            <p>155cc | Street Fighter</p>
+            <p class="price">₹1,68,000</p>
+            <button onclick="showAlert()">Book Now</button>
+        </div>
+
+        <div class="card">
+            <img src="images/fascino.jpg" alt="Yamaha Fascino 125">
+            <h3>Yamaha Fascino 125</h3>
+            <p>125cc | Scooter</p>
+            <p class="price">₹92,000</p>
+            <button onclick="showAlert()">Book Now</button>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/919876543210" target="_blank" class="whatsapp-btn">
+    Chat on WhatsApp
+</a>
+
+<footer>
+    <p>© 2026 Yamaha Showroom | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
